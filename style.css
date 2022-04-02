@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    background: linear-gradient(-47deg, #8731E8 0%, #4528DC 100%);
+    height: 50vh;
+    padding: 150px 0;
+}
+
+.image {
+    float: left;
+    padding-left: 60px;
+    margin-left: 200px;
+    margin-right: 80px
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .wrap {
+        height: auto;
+    }
+    .image {
+        float: none;
+        padding-left: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .text {
+        margin: 30px;
+    }
+}
